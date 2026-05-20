@@ -176,7 +176,7 @@ export default function BookingView({
   return (
     <div className="max-w-4xl mx-auto py-4" id="booking-container-view">
       {/* Visual Booking Banner */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-6 sm:p-8 text-white mb-8 shadow-md relative overflow-hidden">
+      <div className="bg-blue-600 rounded-3xl p-6 sm:p-8 text-white mb-8 shadow-md relative overflow-hidden" style={{ backgroundColor: '#0f766e' }}>
         <div className="absolute right-0 top-0 w-48 h-48 bg-white/5 blur-2xl rounded-full" />
         <div className="relative z-10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <div>
@@ -204,8 +204,8 @@ export default function BookingView({
             {/* Progress Bar background line */}
             <div className="absolute left-0 right-0 h-1 bg-slate-100 top-1/2 -translate-y-1/2 -z-10 rounded-full" />
             <div 
-              className="absolute left-0 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 top-1/2 -translate-y-1/2 -z-10 rounded-full transition-all duration-300" 
-              style={{ width: `${((step - 1) / 3) * 100}%` }}
+              className="absolute left-0 h-1 bg-blue-600 top-1/2 -translate-y-1/2 -z-10 rounded-full transition-all duration-300" 
+              style={{ width: `${((step - 1) / 3) * 100}%`, backgroundColor: '#0f766e' }}
             />
             
             {[1, 2, 3, 4].map((num) => (
@@ -726,7 +726,8 @@ export default function BookingView({
               <button
                 id="booking-submit-confirm-btn"
                 onClick={handleBookingSubmit}
-                className="bg-gradient-to-tr from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700 text-white font-sans font-bold text-xs py-3 px-8 rounded-xl transition-all duration-200 shadow-md shadow-emerald-100 flex items-center gap-2 cursor-pointer"
+                className="bg-emerald-600 hover:bg-emerald-700 text-white font-sans font-bold text-xs py-3 px-8 rounded-xl transition-all duration-200 shadow-md flex items-center gap-2 cursor-pointer"
+                style={{ backgroundColor: '#10b981', borderRadius: '4px' }}
               >
                 <CheckCircle className="w-4.5 h-4.5" />
                 Confirm Clinic Appointment

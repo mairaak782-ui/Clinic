@@ -104,7 +104,7 @@ export default function BlogView() {
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%)' }} />
               <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
                 <span className="bg-blue-600 text-white text-[10px] font-bold uppercase tracking-widest font-mono px-3 py-1 rounded-full">
                   {activeArticle.category}

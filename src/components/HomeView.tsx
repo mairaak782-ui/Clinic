@@ -27,7 +27,7 @@ export default function HomeView({ setActiveTab, setSelectedDoctorId, setSelecte
   return (
     <div className="space-y-16 py-4 animate-fade-in" id="home-view-container">
       {/* 1. HERO HEADER SECTION */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50/40 to-slate-50/40 rounded-3xl border border-slate-100 p-8 sm:p-12 lg:p-16">
+      <section className="relative overflow-hidden bg-slate-100 rounded-3xl border border-slate-200 p-8 sm:p-12 lg:p-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
           <div className="space-y-6 max-w-xl">
             {/* Wellness Badge */}
@@ -38,7 +38,7 @@ export default function HomeView({ setActiveTab, setSelectedDoctorId, setSelecte
             
             <h1 className="font-sans font-extrabold text-4xl sm:text-5xl lg:text-5xl text-slate-900 tracking-tight leading-none">
               Your Health, <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Our Trusted Priority</span>
+              <span className="text-blue-600 font-extrabold" style={{ color: '#0f766e' }}>Our Trusted Priority</span>
             </h1>
             
             <p className="text-slate-600 text-base leading-relaxed">
@@ -147,7 +147,7 @@ export default function HomeView({ setActiveTab, setSelectedDoctorId, setSelecte
               </div>
 
               {/* Patient satisfaction stat info card */}
-              <div className="bg-gradient-to-tr from-slate-900 to-slate-800 p-4 rounded-xl text-white flex justify-between items-center shadow-lg">
+              <div className="bg-slate-900 p-4 rounded-xl text-white flex justify-between items-center shadow-lg" style={{ backgroundColor: '#0f172a' }}>
                 <div>
                   <span className="text-slate-400 text-[10px] uppercase font-mono tracking-wider">Patient Trust Score</span>
                   <div className="flex items-baseline gap-1 mt-1">
@@ -284,7 +284,7 @@ export default function HomeView({ setActiveTab, setSelectedDoctorId, setSelecte
       </section>
 
       {/* 4. CLINIC ADVANTAGE GRID (HUMAN-CENTERED ACCENTS) */}
-      <section className="bg-gradient-to-tr from-slate-900 to-slate-800 rounded-3xl p-8 sm:p-12 text-white border border-slate-900 shadow-xl relative overflow-hidden">
+      <section className="bg-slate-900 rounded-3xl p-8 sm:p-12 text-white border border-slate-950 shadow-xl relative overflow-hidden" style={{ backgroundColor: '#0f172a' }}>
         {/* Visual geometric accent grids */}
         <div className="absolute right-0 top-0 w-96 h-96 bg-blue-500/10 blur-3xl rounded-full" />
         

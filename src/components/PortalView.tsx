@@ -117,7 +117,7 @@ export default function PortalView({
             </h3>
             
             {/* Health Pass Visual */}
-            <div className="bg-gradient-to-tr from-slate-900 to-slate-800 rounded-2xl p-5 text-white relative shadow-lg text-left overflow-hidden border border-slate-800">
+            <div className="bg-slate-900 rounded-2xl p-5 text-white relative shadow-lg text-left overflow-hidden border border-slate-950" style={{ backgroundColor: '#0f172a' }}>
               <div className="absolute right-0 top-0 w-24 h-24 bg-blue-500/10 blur-xl rounded-full" />
               <div className="flex justify-between items-start mb-6">
                 <div>

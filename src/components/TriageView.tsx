@@ -210,7 +210,7 @@ export default function TriageView({ onTriageMatchDepartment, setActiveTab }: Tr
     <div className="max-w-3xl mx-auto py-4 animate-fade-in" id="triage-main-container">
       
       {/* 1. BRAND HERO ROW */}
-      <div className="bg-gradient-to-r from-indigo-700 via-indigo-600 to-blue-600 rounded-3xl p-6 sm:p-8 text-white mb-8 shadow-md relative overflow-hidden">
+      <div className="bg-blue-600 rounded-3xl p-6 sm:p-8 text-white mb-8 shadow-md relative overflow-hidden" style={{ backgroundColor: '#0f766e' }}>
         <div className="absolute right-0 top-0 w-32 h-32 bg-white/5 blur-xl rounded-full" />
         <div className="relative z-10 flex gap-4 items-center">
           <div className="bg-white/10 p-3 rounded-2xl backdrop-blur-md">
