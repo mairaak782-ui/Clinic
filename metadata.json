@@ -1,0 +1,6 @@
+{
+  "name": "CarePoint Medical Clinic",
+  "description": "A professional, patient-centric web portal for CarePoint Medical Clinic, featuring an easy-to-use appointment booking scheduler, patient record management, health tips blog, and a smart AI-powered symptom guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
